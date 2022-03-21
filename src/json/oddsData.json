@@ -1,0 +1,1398 @@
+[
+  {
+    "sessionTitle": "Bahrain Grand Prix - Qualifying",
+    "sessionType": "qualifying",
+    "startTime": "2022-03-19 15:00:00Z",
+    "round": "1",
+    "type": "session",
+    "tables": [
+      {
+        "title": "Winning Margin Over/Under 0.250",
+        "betCode": "fastest-lap",
+        "type": "margin",
+        "options": [
+          {
+            "optionType": "margin",
+            "optionName": "Under",
+            "optionId": "under",
+            "oddsValue": -275
+          },
+          {
+            "optionType": "margin",
+            "optionName": "Over",
+            "optionId": "over",
+            "oddsValue": 180
+          }
+        ]
+      },
+      {
+        "title": "Pole Position",
+        "betCode": "pole",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Max Verstappen",
+            "optionId": "verstappen",
+            "oddsValue": 140
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lewis Hamilton",
+            "optionId": "hamilton",
+            "oddsValue": 300
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Charles Leclerc",
+            "optionId": "leclerc",
+            "oddsValue": 400
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Carlos Sainz",
+            "optionId": "sainz",
+            "oddsValue": 600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "George Russell",
+            "optionId": "russell",
+            "oddsValue": 1000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sergio Pérez",
+            "optionId": "perez",
+            "oddsValue": 2500
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lando Norris",
+            "optionId": "norris",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Daniel Ricciardo",
+            "optionId": "ricciardo",
+            "oddsValue": 5000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Fernando Alonso",
+            "optionId": "alonso",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Pierre Gasly",
+            "optionId": "gasly",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Esteban Ocon",
+            "optionId": "ocon",
+            "oddsValue": 8000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Mick Schumacher",
+            "optionId": "schumacher",
+            "oddsValue": 10000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Yuki Tsunoda",
+            "optionId": "tsunoda",
+            "oddsValue": 15000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lance Stroll",
+            "optionId": "stroll",
+            "oddsValue": 25000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Alexander Albon",
+            "optionId": "albon",
+            "oddsValue": 25000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Kevin Magnussen",
+            "optionId": "magnussen",
+            "oddsValue": 25000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nico Hülkenberg",
+            "optionId": "hulkenberg",
+            "oddsValue": 25000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nicholas Latifi",
+            "optionId": "latifi",
+            "oddsValue": 50000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Guanyu Zhou",
+            "optionId": "zhou",
+            "oddsValue": 50000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Valtteri Bottas",
+            "optionId": "bottas",
+            "oddsValue": 50000
+          }
+        ]
+      },
+      {
+        "title": "Winning Car",
+        "betCode": "winning-car",
+        "type": "constructor",
+        "options": [
+          {
+            "optionType": "constructor",
+            "optionName": "Red Bull",
+            "optionId": "red_bull",
+            "oddsValue": 125
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Mercedes",
+            "optionId": "mercedes",
+            "oddsValue": 175
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Ferrari",
+            "optionId": "ferrari",
+            "oddsValue": 250
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "McLaren",
+            "optionId": "mclaren",
+            "oddsValue": 2200
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Alpine F1 Team",
+            "optionId": "alpine",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "AlphaTauri",
+            "optionId": "alphatauri",
+            "oddsValue": 5000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Haas F1 Team",
+            "optionId": "haas",
+            "oddsValue": 8000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Aston Martin",
+            "optionId": "aston_martin",
+            "oddsValue": 12500
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Williams",
+            "optionId": "williams",
+            "oddsValue": 20000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Alfa Romeo",
+            "optionId": "alfa",
+            "oddsValue": 30000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sessionTitle": "Bahrain Grand Prix - Race",
+    "sessionType": "race",
+    "startTime": "2022-03-20 15:00:00Z",
+    "round": "1",
+    "type": "session",
+    "tables": [
+      {
+        "title": "Winner",
+        "betCode": "win",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Max Verstappen",
+            "optionId": "verstappen",
+            "oddsValue": 175
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lewis Hamilton",
+            "optionId": "hamilton",
+            "oddsValue": 300
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Charles Leclerc",
+            "optionId": "leclerc",
+            "oddsValue": 450
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Carlos Sainz",
+            "optionId": "sainz",
+            "oddsValue": 650
+          },
+          {
+            "optionType": "driver",
+            "optionName": "George Russell",
+            "optionId": "russell",
+            "oddsValue": 1200
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sergio Pérez",
+            "optionId": "perez",
+            "oddsValue": 1600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lando Norris",
+            "optionId": "norris",
+            "oddsValue": 2500
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Daniel Ricciardo",
+            "optionId": "ricciardo",
+            "oddsValue": 5000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Fernando Alonso",
+            "optionId": "alonso",
+            "oddsValue": 5000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Pierre Gasly",
+            "optionId": "gasly",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Mick Schumacher",
+            "optionId": "schumacher",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Esteban Ocon",
+            "optionId": "ocon",
+            "oddsValue": 8000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lance Stroll",
+            "optionId": "stroll",
+            "oddsValue": 15000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Alexander Albon",
+            "optionId": "albon",
+            "oddsValue": 15000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Kevin Magnussen",
+            "optionId": "magnussen",
+            "oddsValue": 15000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Yuki Tsunoda",
+            "optionId": "tsunoda",
+            "oddsValue": 20000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nico Hülkenberg",
+            "optionId": "hulkenberg",
+            "oddsValue": 20000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Valtteri Bottas",
+            "optionId": "bottas",
+            "oddsValue": 25000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Guanyu Zhou",
+            "optionId": "zhou",
+            "oddsValue": 25000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nicholas Latifi",
+            "optionId": "latifi",
+            "oddsValue": 25000
+          }
+        ]
+      },
+      {
+        "title": "Podium Finish",
+        "betCode": "podium",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Max Verstappen",
+            "optionId": "verstappen",
+            "oddsValue": -250
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lewis Hamilton",
+            "optionId": "hamilton",
+            "oddsValue": -135
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Charles Leclerc",
+            "optionId": "leclerc",
+            "oddsValue": -105
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Carlos Sainz",
+            "optionId": "sainz",
+            "oddsValue": 140
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sergio Pérez",
+            "optionId": "perez",
+            "oddsValue": 175
+          },
+          {
+            "optionType": "driver",
+            "optionName": "George Russell",
+            "optionId": "russell",
+            "oddsValue": 225
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lando Norris",
+            "optionId": "norris",
+            "oddsValue": 450
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Daniel Ricciardo",
+            "optionId": "ricciardo",
+            "oddsValue": 1000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Fernando Alonso",
+            "optionId": "alonso",
+            "oddsValue": 1200
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Pierre Gasly",
+            "optionId": "gasly",
+            "oddsValue": 1200
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Esteban Ocon",
+            "optionId": "ocon",
+            "oddsValue": 2200
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Mick Schumacher",
+            "optionId": "schumacher",
+            "oddsValue": 2500
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lance Stroll",
+            "optionId": "stroll",
+            "oddsValue": 3300
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Yuki Tsunoda",
+            "optionId": "tsunoda",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Alexander Albon",
+            "optionId": "albon",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nico Hülkenberg",
+            "optionId": "hulkenberg",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Kevin Magnussen",
+            "optionId": "magnussen",
+            "oddsValue": 5000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Valtteri Bottas",
+            "optionId": "bottas",
+            "oddsValue": 8000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Guanyu Zhou",
+            "optionId": "zhou",
+            "oddsValue": 8000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nicholas Latifi",
+            "optionId": "latifi",
+            "oddsValue": 8000
+          }
+        ]
+      },
+      {
+        "title": "Points Finish",
+        "betCode": "points",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Lewis Hamilton",
+            "optionId": "hamilton",
+            "oddsValue": -650
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Max Verstappen",
+            "optionId": "verstappen",
+            "oddsValue": -650
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Charles Leclerc",
+            "optionId": "leclerc",
+            "oddsValue": -650
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Carlos Sainz",
+            "optionId": "sainz",
+            "oddsValue": -650
+          },
+          {
+            "optionType": "driver",
+            "optionName": "George Russell",
+            "optionId": "russell",
+            "oddsValue": -500
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sergio Pérez",
+            "optionId": "perez",
+            "oddsValue": -500
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lando Norris",
+            "optionId": "norris",
+            "oddsValue": -250
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Daniel Ricciardo",
+            "optionId": "ricciardo",
+            "oddsValue": -165
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Fernando Alonso",
+            "optionId": "alonso",
+            "oddsValue": -155
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Pierre Gasly",
+            "optionId": "gasly",
+            "oddsValue": -140
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Esteban Ocon",
+            "optionId": "ocon",
+            "oddsValue": -135
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lance Stroll",
+            "optionId": "stroll",
+            "oddsValue": 110
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nico Hülkenberg",
+            "optionId": "hulkenberg",
+            "oddsValue": 130
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Yuki Tsunoda",
+            "optionId": "tsunoda",
+            "oddsValue": 150
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Valtteri Bottas",
+            "optionId": "bottas",
+            "oddsValue": 250
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Mick Schumacher",
+            "optionId": "schumacher",
+            "oddsValue": 250
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Kevin Magnussen",
+            "optionId": "magnussen",
+            "oddsValue": 250
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Alexander Albon",
+            "optionId": "albon",
+            "oddsValue": 333
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Guanyu Zhou",
+            "optionId": "zhou",
+            "oddsValue": 600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nicholas Latifi",
+            "optionId": "latifi",
+            "oddsValue": 600
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Mercedes",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "George Russell",
+            "optionId": "russell",
+            "oddsValue": 160
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lewis Hamilton",
+            "optionId": "hamilton",
+            "oddsValue": -225
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Ferrari",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Carlos Sainz",
+            "optionId": "sainz",
+            "oddsValue": -105
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Charles Leclerc",
+            "optionId": "leclerc",
+            "oddsValue": -135
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Alpine F1 Team",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Esteban Ocon",
+            "optionId": "ocon",
+            "oddsValue": 110
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Fernando Alonso",
+            "optionId": "alonso",
+            "oddsValue": -155
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Williams",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Alexander Albon",
+            "optionId": "albon",
+            "oddsValue": -185
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nicholas Latifi",
+            "optionId": "latifi",
+            "oddsValue": 130
+          }
+        ]
+      },
+      {
+        "title": "Fastest Lap ",
+        "betCode": "fastest-lap",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Max Verstappen",
+            "optionId": "verstappen",
+            "oddsValue": 160
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lewis Hamilton",
+            "optionId": "hamilton",
+            "oddsValue": 275
+          },
+          {
+            "optionType": "driver",
+            "optionName": "George Russell",
+            "optionId": "russell",
+            "oddsValue": 800
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sergio Pérez",
+            "optionId": "perez",
+            "oddsValue": 800
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Charles Leclerc",
+            "optionId": "leclerc",
+            "oddsValue": 900
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Carlos Sainz",
+            "optionId": "sainz",
+            "oddsValue": 900
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lando Norris",
+            "optionId": "norris",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Daniel Ricciardo",
+            "optionId": "ricciardo",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Fernando Alonso",
+            "optionId": "alonso",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Pierre Gasly",
+            "optionId": "gasly",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Esteban Ocon",
+            "optionId": "ocon",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Yuki Tsunoda",
+            "optionId": "tsunoda",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Mick Schumacher",
+            "optionId": "schumacher",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nico Hülkenberg",
+            "optionId": "hulkenberg",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lance Stroll",
+            "optionId": "stroll",
+            "oddsValue": 10000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Alexander Albon",
+            "optionId": "albon",
+            "oddsValue": 10000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Kevin Magnussen",
+            "optionId": "magnussen",
+            "oddsValue": 10000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Valtteri Bottas",
+            "optionId": "bottas",
+            "oddsValue": 15000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Guanyu Zhou",
+            "optionId": "zhou",
+            "oddsValue": 15000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nicholas Latifi",
+            "optionId": "latifi",
+            "oddsValue": 15000
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Red Bull",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Max Verstappen",
+            "optionId": "verstappen",
+            "oddsValue": -650
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sergio Pérez",
+            "optionId": "perez",
+            "oddsValue": 350
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: McLaren",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Daniel Ricciardo",
+            "optionId": "ricciardo",
+            "oddsValue": 140
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lando Norris",
+            "optionId": "norris",
+            "oddsValue": -200
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: AlphaTauri",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Pierre Gasly",
+            "optionId": "gasly",
+            "oddsValue": -300
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Yuki Tsunoda",
+            "optionId": "tsunoda",
+            "oddsValue": 200
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Alfa Romeo",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Guanyu Zhou",
+            "optionId": "zhou",
+            "oddsValue": 220
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Valtteri Bottas",
+            "optionId": "bottas",
+            "oddsValue": -350
+          }
+        ]
+      },
+      {
+        "title": "Winning Car",
+        "betCode": "winning-car",
+        "type": "constructor",
+        "options": [
+          {
+            "optionType": "constructor",
+            "optionName": "Red Bull",
+            "optionId": "red_bull",
+            "oddsValue": 150
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Mercedes",
+            "optionId": "mercedes",
+            "oddsValue": 200
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Ferrari",
+            "optionId": "ferrari",
+            "oddsValue": 200
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "McLaren",
+            "optionId": "mclaren",
+            "oddsValue": 1600
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Alpine F1 Team",
+            "optionId": "alpine",
+            "oddsValue": 3300
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "AlphaTauri",
+            "optionId": "alphatauri",
+            "oddsValue": 5000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Haas F1 Team",
+            "optionId": "haas",
+            "oddsValue": 5000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Aston Martin",
+            "optionId": "aston_martin",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Williams",
+            "optionId": "williams",
+            "oddsValue": 10000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Alfa Romeo",
+            "optionId": "alfa",
+            "oddsValue": 12500
+          }
+        ]
+      },
+      {
+        "title": "Double Points Finish",
+        "betCode": "double-points",
+        "type": "constructor",
+        "options": [
+          {
+            "optionType": "constructor",
+            "optionName": "Ferrari",
+            "optionId": "ferrari",
+            "oddsValue": -300
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Mercedes",
+            "optionId": "mercedes",
+            "oddsValue": -275
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Red Bull",
+            "optionId": "red_bull",
+            "oddsValue": -275
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "McLaren",
+            "optionId": "mclaren",
+            "oddsValue": 120
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Alpine F1 Team",
+            "optionId": "alpine",
+            "oddsValue": 185
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "AlphaTauri",
+            "optionId": "alphatauri",
+            "oddsValue": 300
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Aston Martin",
+            "optionId": "aston_martin",
+            "oddsValue": 375
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Haas F1 Team",
+            "optionId": "haas",
+            "oddsValue": 900
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Williams",
+            "optionId": "williams",
+            "oddsValue": 2000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Alfa Romeo",
+            "optionId": "alfa",
+            "oddsValue": 2000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "drivers",
+    "title": "2022 Drivers Championship",
+    "tables": [
+      {
+        "title": "Winner",
+        "betCode": "win",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Lewis Hamilton",
+            "optionId": "hamilton",
+            "oddsValue": 150
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Max Verstappen",
+            "optionId": "verstappen",
+            "oddsValue": 175
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Charles Leclerc",
+            "optionId": "leclerc",
+            "oddsValue": 700
+          },
+          {
+            "optionType": "driver",
+            "optionName": "George Russell",
+            "optionId": "russell",
+            "oddsValue": 800
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Carlos Sainz",
+            "optionId": "sainz",
+            "oddsValue": 1000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lando Norris",
+            "optionId": "norris",
+            "oddsValue": 2500
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sergio Pérez",
+            "optionId": "perez",
+            "oddsValue": 4000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Daniel Ricciardo",
+            "optionId": "ricciardo",
+            "oddsValue": 5000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Fernando Alonso",
+            "optionId": "alonso",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Esteban Ocon",
+            "optionId": "ocon",
+            "oddsValue": 10000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sebastian Vettel",
+            "optionId": "vettel",
+            "oddsValue": 15000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Pierre Gasly",
+            "optionId": "gasly",
+            "oddsValue": 20000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Mick Schumacher",
+            "optionId": "schumacher",
+            "oddsValue": 20000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lance Stroll",
+            "optionId": "stroll",
+            "oddsValue": 30000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Valtteri Bottas",
+            "optionId": "bottas",
+            "oddsValue": 50000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Yuki Tsunoda",
+            "optionId": "tsunoda",
+            "oddsValue": 50000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Alexander Albon",
+            "optionId": "albon",
+            "oddsValue": 50000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nicholas Latifi",
+            "optionId": "latifi",
+            "oddsValue": 50000
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Guanyu Zhou",
+            "optionId": "zhou",
+            "oddsValue": 75000
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Red Bull",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Max Verstappen",
+            "optionId": "verstappen",
+            "oddsValue": -700
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Sergio Pérez",
+            "optionId": "perez",
+            "oddsValue": 400
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: McLaren",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Daniel Ricciardo",
+            "optionId": "ricciardo",
+            "oddsValue": 200
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lando Norris",
+            "optionId": "norris",
+            "oddsValue": -300
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Aston Martin",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Sebastian Vettel",
+            "optionId": "vettel",
+            "oddsValue": -250
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Lance Stroll",
+            "optionId": "stroll",
+            "oddsValue": 175
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Williams",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Alexander Albon",
+            "optionId": "albon",
+            "oddsValue": -300
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Nicholas Latifi",
+            "optionId": "latifi",
+            "oddsValue": 200
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Mercedes",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Lewis Hamilton",
+            "optionId": "hamilton",
+            "oddsValue": -250
+          },
+          {
+            "optionType": "driver",
+            "optionName": "George Russell",
+            "optionId": "russell",
+            "oddsValue": 175
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Ferrari",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Carlos Sainz",
+            "optionId": "sainz",
+            "oddsValue": 100
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Charles Leclerc",
+            "optionId": "leclerc",
+            "oddsValue": -140
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: AlphaTauri",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Pierre Gasly",
+            "optionId": "gasly",
+            "oddsValue": -900
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Yuki Tsunoda",
+            "optionId": "tsunoda",
+            "oddsValue": 450
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Alpine F1 Team",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Fernando Alonso",
+            "optionId": "alonso",
+            "oddsValue": -300
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Esteban Ocon",
+            "optionId": "ocon",
+            "oddsValue": 200
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head: Alfa Romeo",
+        "betCode": "h2h",
+        "type": "driver",
+        "options": [
+          {
+            "optionType": "driver",
+            "optionName": "Valtteri Bottas",
+            "optionId": "bottas",
+            "oddsValue": -900
+          },
+          {
+            "optionType": "driver",
+            "optionName": "Guanyu Zhou",
+            "optionId": "zhou",
+            "oddsValue": 450
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "constructor",
+    "title": "2022 Constructor Championship",
+    "tables": [
+      {
+        "title": "Winner",
+        "betCode": "win",
+        "type": "constructor",
+        "options": [
+          {
+            "optionType": "constructor",
+            "optionName": "Mercedes",
+            "optionId": "mercedes",
+            "oddsValue": -135
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Red Bull",
+            "optionId": "red_bull",
+            "oddsValue": 250
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Ferrari",
+            "optionId": "ferrari",
+            "oddsValue": 275
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "McLaren",
+            "optionId": "mclaren",
+            "oddsValue": 1600
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Alpine F1 Team",
+            "optionId": "alpine",
+            "oddsValue": 6600
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Aston Martin",
+            "optionId": "aston_martin",
+            "oddsValue": 15000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "AlphaTauri",
+            "optionId": "alphatauri",
+            "oddsValue": 25000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Williams",
+            "optionId": "williams",
+            "oddsValue": 40000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Alfa Romeo",
+            "optionId": "alfa",
+            "oddsValue": 50000
+          },
+          {
+            "optionType": "constructor",
+            "optionName": "Haas F1 Team",
+            "optionId": "haas",
+            "oddsValue": 50000
+          }
+        ]
+      }
+    ]
+  }
+]

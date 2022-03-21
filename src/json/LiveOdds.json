@@ -1,0 +1,2483 @@
+[
+  {
+    "category": "GP Bahrain - Free Practice I",
+    "tables": [
+      {
+        "title": "Winner Free Practice",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "+160"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+350"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "+400"
+          },
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "+500"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+900"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+1400"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "+2500"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "+4000"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "+5000"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+5000"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+6600"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "+6600"
+          },
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+8000"
+          },
+          {
+            "option": "Mick Schumacher (GER/Haas)",
+            "value": "+10000"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+15000"
+          },
+          {
+            "option": "Kevin Magnussen (DEN/Haas)",
+            "value": "+15000"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+15000"
+          },
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "+20000"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+25000"
+          }
+        ]
+      },
+      {
+        "title": "Will both drivers finish in the Top 2? Hamilton/Verstappen (Both must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+350"
+          },
+          {
+            "option": "No",
+            "value": "-650"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Lewis Hamilton (GBR/Mercedes)/Max Verstappen (NED/Red Bull)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+160"
+          },
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-225"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Lewis Hamilton (GBR/Mercedes) / Charles Leclerc (MON/Ferrari)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-115"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "-115"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Sergio Perez (MEX/Red Bull)/Pierre Gasly (FRA/AlphaTauri)",
+        "options": [
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "-175"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "+125"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Daniel Ricciardo (AUS/McLaren)/Yuki Tsunoda (JPN/AlphaTauri)",
+        "options": [
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "-105"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "-135"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Max Verstappen (NED/Red Bull)/Sergio Perez (MEX/Red Bull)",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-550"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+325"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Daniel Ricciardo (AUS/McLaren)/Lando Norris (GBR/McLaren)",
+        "options": [
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+125"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "-175"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Pierre Gasly (FRA/AlphaTauri)/Yuki Tsunoda (JPN/AlphaTauri)",
+        "options": [
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "-350"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+230"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Guanyu Zhou (CHN/Alfa Romeo)/Valtteri Bottas (FIN/Alfa Romeo)",
+        "options": [
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+250"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "-400"
+          }
+        ]
+      },
+      {
+        "title": "Winner Free Practice - Verstappen/Rest of field (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "+160"
+          },
+          {
+            "option": "Any other driver",
+            "value": "-225"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win the Free Practice?",
+        "options": [
+          {
+            "option": "Red Bull",
+            "value": "+130"
+          },
+          {
+            "option": "Ferrari",
+            "value": "+175"
+          },
+          {
+            "option": "Mercedes",
+            "value": "+225"
+          },
+          {
+            "option": "Alpine",
+            "value": "+2200"
+          },
+          {
+            "option": "AlphaTauri",
+            "value": "+2200"
+          },
+          {
+            "option": "McLaren",
+            "value": "+3300"
+          },
+          {
+            "option": "Alfa Romeo",
+            "value": "+5000"
+          },
+          {
+            "option": "Haas",
+            "value": "+6600"
+          },
+          {
+            "option": "Aston Martin",
+            "value": "+8000"
+          },
+          {
+            "option": "Williams",
+            "value": "+12500"
+          }
+        ]
+      },
+      {
+        "title": "To how many thousandths of a second will the winning time be?",
+        "options": [
+          {
+            "option": "0",
+            "value": "+850"
+          },
+          {
+            "option": "1",
+            "value": "+850"
+          },
+          {
+            "option": "2",
+            "value": "+850"
+          },
+          {
+            "option": "3",
+            "value": "+850"
+          },
+          {
+            "option": "4",
+            "value": "+850"
+          },
+          {
+            "option": "5",
+            "value": "+850"
+          },
+          {
+            "option": "6",
+            "value": "+850"
+          },
+          {
+            "option": "7",
+            "value": "+850"
+          },
+          {
+            "option": "8",
+            "value": "+850"
+          },
+          {
+            "option": "9",
+            "value": "+850"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win the Free Practice?  Ferrari/Any other team",
+        "options": [
+          {
+            "option": "Ferrari",
+            "value": "+175"
+          },
+          {
+            "option": "Any other team",
+            "value": "-250"
+          }
+        ]
+      },
+      {
+        "title": "Will all of these drivers finish in the Top 3? Verstappen/Hamilton/Leclerc (All must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+375"
+          },
+          {
+            "option": "No",
+            "value": "-650"
+          }
+        ]
+      },
+      {
+        "title": "Will all Mercedes and Red Bull drivers finish in the top 6? (All must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+175"
+          }
+        ]
+      },
+      {
+        "title": "Free Practice - both team drivers in the Top 3",
+        "options": [
+          {
+            "option": "Ferrari",
+            "value": "+300"
+          },
+          {
+            "option": "Red Bull",
+            "value": "+375"
+          },
+          {
+            "option": "Mercedes",
+            "value": "+475"
+          },
+          {
+            "option": "McLaren",
+            "value": "+15000"
+          },
+          {
+            "option": "Any other outcome",
+            "value": "+100"
+          }
+        ]
+      },
+      {
+        "title": "Free Practice 1 Top 3",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-300"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-135"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "+100"
+          },
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "+120"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+225"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+275"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "+500"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "+800"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+1200"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "+1200"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+1600"
+          },
+          {
+            "option": "Mick Schumacher (GER/Haas)",
+            "value": "+1600"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "+1600"
+          },
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+2200"
+          },
+          {
+            "option": "Kevin Magnussen (DEN/Haas)",
+            "value": "+2500"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+3300"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+4000"
+          },
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "+5000"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+6600"
+          }
+        ]
+      },
+      {
+        "title": "What will the winning margin be?",
+        "options": [
+          {
+            "option": "0,000 - 0,100 sec.",
+            "value": "+175"
+          },
+          {
+            "option": "0,101 - 0,250 sec.",
+            "value": "+175"
+          },
+          {
+            "option": "0.251 - 0.500 sec.",
+            "value": "+250"
+          },
+          {
+            "option": "0.501 sec. or more",
+            "value": "+700"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head George Russell (GBR/Mercedes)/Sergio Perez (MEX/Red Bull)",
+        "options": [
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "-140"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+100"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Carlos Sainz Jr. (ESP/Ferrari)/George Russell (GBR/Mercedes)",
+        "options": [
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "-140"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+100"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Fernando Alonso (ESP/Alpine)/Lando Norris (GBR/McLaren)",
+        "options": [
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "-115"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "-115"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head George Russell (GBR/Mercedes)/Lewis Hamilton (GBR/Mercedes)",
+        "options": [
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+110"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-155"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Carlos Sainz Jr. (ESP/Ferrari)/Charles Leclerc (MON/Ferrari)",
+        "options": [
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "-110"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "-125"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Esteban Ocon (FRA/Alpine)/Fernando Alonso (ESP/Alpine)",
+        "options": [
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "-110"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "-125"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Alexander Albon (THA/Williams)/Nicholas Latifi (CAN/Williams)",
+        "options": [
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "-200"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+140"
+          }
+        ]
+      },
+      {
+        "title": "Winner Free Practice - Hamilton/Rest of field (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+350"
+          },
+          {
+            "option": "Any other driver",
+            "value": "-650"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win Free Practice? Head-to-Head Mercedes/Any other team",
+        "options": [
+          {
+            "option": "Mercedes",
+            "value": "+225"
+          },
+          {
+            "option": "Any other team",
+            "value": "-350"
+          }
+        ]
+      },
+      {
+        "title": "Winning margin 0.250",
+        "options": [
+          {
+            "option": "0.000 - 0.250 seconds",
+            "value": "-225"
+          },
+          {
+            "option": "0.251 seconds or more",
+            "value": "+150"
+          }
+        ]
+      },
+      {
+        "title": "Winner Free Practice - Russell/Rest of field (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+900"
+          },
+          {
+            "option": "Any other driver",
+            "value": "-5000"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win the Free Practice?  Red Bull/Any other team",
+        "options": [
+          {
+            "option": "Red Bull",
+            "value": "+130"
+          },
+          {
+            "option": "Any other team",
+            "value": "-185"
+          }
+        ]
+      },
+      {
+        "title": "Will all Mercedes and Red Bull drivers finish in the top 4? (All must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+1000"
+          }
+        ]
+      },
+      {
+        "title": "Will Mick Schumacher finish in the top 10? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+175"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "GP Bahrain - Qualifying",
+    "tables": [
+      {
+        "title": "What will the winning margin be?",
+        "options": [
+          {
+            "option": "0,000 - 0,100 sec.",
+            "value": "+150"
+          },
+          {
+            "option": "0,101 - 0,250 sec.",
+            "value": "+160"
+          },
+          {
+            "option": "0.251 - 0.500 sec.",
+            "value": "+300"
+          },
+          {
+            "option": "0.501 sec. or more",
+            "value": "+800"
+          }
+        ]
+      },
+      {
+        "title": "Winner Qualifying - Verstappen/Rest of field (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "+140"
+          },
+          {
+            "option": "Any other driver",
+            "value": "-200"
+          }
+        ]
+      },
+      {
+        "title": "Winning margin 0.250",
+        "options": [
+          {
+            "option": "0.000 - 0.250 seconds",
+            "value": "-275"
+          },
+          {
+            "option": "0.251 seconds or more",
+            "value": "+180"
+          }
+        ]
+      },
+      {
+        "title": "Qualifying winner",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "+140"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+300"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "+400"
+          },
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "+600"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+1000"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+2500"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "+4000"
+          },
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+5000"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "+6600"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "+6600"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+8000"
+          },
+          {
+            "option": "Mick Schumacher (GER/Haas)",
+            "value": "+10000"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+15000"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+25000"
+          },
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "+25000"
+          },
+          {
+            "option": "Kevin Magnussen (DEN/Haas)",
+            "value": "+25000"
+          },
+          {
+            "option": "Nico Hulkenberg (GER/Aston Martin)",
+            "value": "+25000"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+50000"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+50000"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "+50000"
+          }
+        ]
+      },
+      {
+        "title": "Winner Qualifying - Hamilton/Rest of field (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+300"
+          },
+          {
+            "option": "Any other driver",
+            "value": "-500"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win the qualifying?",
+        "options": [
+          {
+            "option": "Red Bull",
+            "value": "+125"
+          },
+          {
+            "option": "Mercedes",
+            "value": "+175"
+          },
+          {
+            "option": "Ferrari",
+            "value": "+250"
+          },
+          {
+            "option": "McLaren",
+            "value": "+2200"
+          },
+          {
+            "option": "Alpine",
+            "value": "+4000"
+          },
+          {
+            "option": "AlphaTauri",
+            "value": "+5000"
+          },
+          {
+            "option": "Haas",
+            "value": "+8000"
+          },
+          {
+            "option": "Aston Martin",
+            "value": "+12500"
+          },
+          {
+            "option": "Williams",
+            "value": "+20000"
+          },
+          {
+            "option": "Alfa Romeo",
+            "value": "+30000"
+          }
+        ]
+      },
+      {
+        "title": "To how many thousandths of a second will the winning time be?",
+        "options": [
+          {
+            "option": "0",
+            "value": "+850"
+          },
+          {
+            "option": "1",
+            "value": "+850"
+          },
+          {
+            "option": "2",
+            "value": "+850"
+          },
+          {
+            "option": "3",
+            "value": "+850"
+          },
+          {
+            "option": "4",
+            "value": "+850"
+          },
+          {
+            "option": "5",
+            "value": "+850"
+          },
+          {
+            "option": "6",
+            "value": "+850"
+          },
+          {
+            "option": "7",
+            "value": "+850"
+          },
+          {
+            "option": "8",
+            "value": "+850"
+          },
+          {
+            "option": "9",
+            "value": "+850"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "GP Bahrain - Race",
+    "tables": [
+      {
+        "title": "Race winner",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "+175"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+300"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "+450"
+          },
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "+650"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+1200"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+1600"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "+2500"
+          },
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+5000"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "+5000"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "+6600"
+          },
+          {
+            "option": "Mick Schumacher (GER/Haas)",
+            "value": "+6600"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+8000"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+15000"
+          },
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "+15000"
+          },
+          {
+            "option": "Kevin Magnussen (DEN/Haas)",
+            "value": "+15000"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+20000"
+          },
+          {
+            "option": "Nico Hulkenberg (GER/Aston Martin)",
+            "value": "+20000"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "+25000"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+25000"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+25000"
+          }
+        ]
+      },
+      {
+        "title": "Top 3 bet",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-250"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-135"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "-105"
+          },
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "+140"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+175"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+225"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "+450"
+          },
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+1000"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "+1200"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "+1200"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+2200"
+          },
+          {
+            "option": "Mick Schumacher (GER/Haas)",
+            "value": "+2500"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+3300"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+4000"
+          },
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "+4000"
+          },
+          {
+            "option": "Nico Hulkenberg (GER/Aston Martin)",
+            "value": "+4000"
+          },
+          {
+            "option": "Kevin Magnussen (DEN/Haas)",
+            "value": "+5000"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "+8000"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+8000"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+8000"
+          }
+        ]
+      },
+      {
+        "title": "Will Max Verstappen (NED/Red Bull) finish in the top 3? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-250"
+          },
+          {
+            "option": "No",
+            "value": "+175"
+          }
+        ]
+      },
+      {
+        "title": "Will Sergio Perez (MEX/Red Bull) finish in the top 3? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+175"
+          },
+          {
+            "option": "No",
+            "value": "-250"
+          }
+        ]
+      },
+      {
+        "title": "Will Carlos Sainz Jr. (ESP/Ferrari) finish in the top 3? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+140"
+          },
+          {
+            "option": "No",
+            "value": "-200"
+          }
+        ]
+      },
+      {
+        "title": "Will Daniel Ricciardo (AUS/McLaren) finish in the top 3? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+1000"
+          },
+          {
+            "option": "No",
+            "value": "-10000"
+          }
+        ]
+      },
+      {
+        "title": "Top-10 bet (driver)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-650"
+          },
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-650"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "-650"
+          },
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "-650"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "-500"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "-500"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "-250"
+          },
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "-165"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "-155"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "-140"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "-135"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+110"
+          },
+          {
+            "option": "Nico Hulkenberg (GER/Aston Martin)",
+            "value": "+130"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+150"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "+250"
+          },
+          {
+            "option": "Mick Schumacher (GER/Haas)",
+            "value": "+250"
+          },
+          {
+            "option": "Kevin Magnussen (DEN/Haas)",
+            "value": "+250"
+          },
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "+333"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+600"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+600"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Lewis Hamilton (GBR/Mercedes)/Max Verstappen (NED/Red Bull)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+120"
+          },
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-165"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head George Russell (GBR/Mercedes)/Lewis Hamilton (GBR/Mercedes)",
+        "options": [
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+160"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-225"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Carlos Sainz Jr. (ESP/Ferrari)/Charles Leclerc (MON/Ferrari)",
+        "options": [
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "-105"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "-135"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Esteban Ocon (FRA/Alpine)/Fernando Alonso (ESP/Alpine)",
+        "options": [
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+110"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "-155"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Alexander Albon (THA/Williams)/Nicholas Latifi (CAN/Williams)",
+        "options": [
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "-185"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+130"
+          }
+        ]
+      },
+      {
+        "title": "Race Winner - Hamilton/Rest of field (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+300"
+          },
+          {
+            "option": "Any other driver",
+            "value": "-500"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win the race? Head-to-Head Mercedes/Any other team",
+        "options": [
+          {
+            "option": "Mercedes",
+            "value": "+185"
+          },
+          {
+            "option": "Any other team",
+            "value": "-275"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win the race? Red Bull/Any other team",
+        "options": [
+          {
+            "option": "Red Bull",
+            "value": "+160"
+          },
+          {
+            "option": "Any other team",
+            "value": "-250"
+          }
+        ]
+      },
+      {
+        "title": "Will both team drivers finish in the top 3?",
+        "options": [
+          {
+            "option": "Mercedes",
+            "value": "+450"
+          },
+          {
+            "option": "Red Bull",
+            "value": "+275"
+          },
+          {
+            "option": "Ferrari",
+            "value": "+350"
+          },
+          {
+            "option": "McLaren",
+            "value": "+4000"
+          },
+          {
+            "option": "Any other outcome",
+            "value": "+130"
+          }
+        ]
+      },
+      {
+        "title": "Will Max Verstappen (NED/Red Bull) record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-650"
+          },
+          {
+            "option": "No",
+            "value": "+350"
+          }
+        ]
+      },
+      {
+        "title": "Will Sergio Perez (MEX/Red Bull) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-500"
+          },
+          {
+            "option": "No",
+            "value": "+300"
+          }
+        ]
+      },
+      {
+        "title": "Will Lando Norris (GBR/McLaren) record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-250"
+          },
+          {
+            "option": "No",
+            "value": "+175"
+          }
+        ]
+      },
+      {
+        "title": "Will Daniel Ricciardo (AUS/McLaren) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-165"
+          },
+          {
+            "option": "No",
+            "value": "+120"
+          }
+        ]
+      },
+      {
+        "title": "Will Esteban Ocon (FRA/Alpine) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-135"
+          },
+          {
+            "option": "No",
+            "value": "-105"
+          }
+        ]
+      },
+      {
+        "title": "Will Fernando Alonso (ESP/Alpine) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-155"
+          },
+          {
+            "option": "No",
+            "value": "+110"
+          }
+        ]
+      },
+      {
+        "title": "Will Guanyu Zhou (CHN/Alfa Romeo) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+600"
+          },
+          {
+            "option": "No",
+            "value": "-1600"
+          }
+        ]
+      },
+      {
+        "title": "Will Nicolas Latifi (CAN/Williams) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+600"
+          },
+          {
+            "option": "No",
+            "value": "-1600"
+          }
+        ]
+      },
+      {
+        "title": "Will both drivers of team Mercedes record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-275"
+          },
+          {
+            "option": "No",
+            "value": "+190"
+          }
+        ]
+      },
+      {
+        "title": "Will both drivers of team McLaren record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+120"
+          },
+          {
+            "option": "No",
+            "value": "-165"
+          }
+        ]
+      },
+      {
+        "title": "Will both drivers of team AlphaTauri record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+300"
+          },
+          {
+            "option": "No",
+            "value": "-500"
+          }
+        ]
+      },
+      {
+        "title": "Will both drivers in any team finish in the top 6?",
+        "options": [
+          {
+            "option": "Mercedes",
+            "value": "-145"
+          },
+          {
+            "option": "Red Bull",
+            "value": "-145"
+          },
+          {
+            "option": "Ferrari",
+            "value": "-135"
+          },
+          {
+            "option": "McLaren",
+            "value": "+650"
+          },
+          {
+            "option": "Alpine",
+            "value": "+1200"
+          },
+          {
+            "option": "AlphaTauri",
+            "value": "+2000"
+          },
+          {
+            "option": "Aston Martin",
+            "value": "+2200"
+          },
+          {
+            "option": "Haas",
+            "value": "+8000"
+          },
+          {
+            "option": "Williams",
+            "value": "+35000"
+          },
+          {
+            "option": "Alfa Romeo",
+            "value": "+50000"
+          }
+        ]
+      },
+      {
+        "title": "Will all 4 Ferrari and McLaren drivers score points in the race? (All must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+175"
+          },
+          {
+            "option": "No",
+            "value": "-250"
+          }
+        ]
+      },
+      {
+        "title": "Will Max Verstappen (NED/Red Bull) complete the hat-trick (Pole + Race + Fastest Lap)?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+400"
+          }
+        ]
+      },
+      {
+        "title": "Will Kevin Magnussen (DEN/Haas) record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+250"
+          },
+          {
+            "option": "No",
+            "value": "-400"
+          }
+        ]
+      },
+      {
+        "title": "Fastest Lap - Driver (Race)",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "+160"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+275"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+800"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+800"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "+900"
+          },
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "+900"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "+4000"
+          },
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+4000"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "+4000"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "+4000"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+6600"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+6600"
+          },
+          {
+            "option": "Mick Schumacher (GER/Haas)",
+            "value": "+6600"
+          },
+          {
+            "option": "Nico Hulkenberg (GER/Aston Martin)",
+            "value": "+6600"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+10000"
+          },
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "+10000"
+          },
+          {
+            "option": "Kevin Magnussen (DEN/Haas)",
+            "value": "+10000"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "+15000"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+15000"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+15000"
+          }
+        ]
+      },
+      {
+        "title": "Will Lewis Hamilton (GBR/Mercedes) finish in the top 3? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-135"
+          },
+          {
+            "option": "No",
+            "value": "-105"
+          }
+        ]
+      },
+      {
+        "title": "Will George Russell (GBR/Mercedes) finish in top 3? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+225"
+          },
+          {
+            "option": "No",
+            "value": "-350"
+          }
+        ]
+      },
+      {
+        "title": "Will Charles Leclerc (MON/Ferrari) finish in the top 3? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-105"
+          },
+          {
+            "option": "No",
+            "value": "-135"
+          }
+        ]
+      },
+      {
+        "title": "Will Lando Norris (GBR/McLaren) finish in the top 3? (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+450"
+          },
+          {
+            "option": "No",
+            "value": "-900"
+          }
+        ]
+      },
+      {
+        "title": "Top 6 bet",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-450"
+          },
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-400"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "-300"
+          },
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "-275"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "-250"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "-250"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "+125"
+          },
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "+175"
+          },
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+250"
+          },
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "+250"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+300"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+400"
+          },
+          {
+            "option": "Nico Hulkenberg (GER/Aston Martin)",
+            "value": "+500"
+          },
+          {
+            "option": "Mick Schumacher (GER/Haas)",
+            "value": "+600"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+700"
+          },
+          {
+            "option": "Kevin Magnussen (DEN/Haas)",
+            "value": "+1200"
+          },
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "+1600"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "+2000"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+4000"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+6600"
+          }
+        ]
+      },
+      {
+        "title": "Will both drivers finish in the Top 2? Hamilton/Verstappen (Both must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+300"
+          },
+          {
+            "option": "No",
+            "value": "-500"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head George Russell (GBR/Mercedes)/Sergio Perez (MEX/Red Bull)",
+        "options": [
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "-140"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+100"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Max Verstappen (NED/Red Bull)/Sergio Perez (MEX/Red Bull)",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-650"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+350"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Daniel Ricciardo (AUS/McLaren)/Lando Norris (GBR/McLaren)",
+        "options": [
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+140"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "-200"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Pierre Gasly (FRA/AlphaTauri)/Yuki Tsunoda (JPN/AlphaTauri)",
+        "options": [
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "-300"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+200"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Guanyu Zhou (CHN/Alfa Romeo)/Valtteri Bottas (FIN/Alfa Romeo)",
+        "options": [
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+220"
+          },
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "-350"
+          }
+        ]
+      },
+      {
+        "title": "Race Winner - Verstappen/Rest of field (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "+175"
+          },
+          {
+            "option": "Any other driver",
+            "value": "-250"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win the race? Head-to-Head Ferrari/Any other team",
+        "options": [
+          {
+            "option": "Ferrari",
+            "value": "+200"
+          },
+          {
+            "option": "Any other team",
+            "value": "-300"
+          }
+        ]
+      },
+      {
+        "title": "Which car will win the race?",
+        "options": [
+          {
+            "option": "Red Bull",
+            "value": "+150"
+          },
+          {
+            "option": "Mercedes",
+            "value": "+200"
+          },
+          {
+            "option": "Ferrari",
+            "value": "+200"
+          },
+          {
+            "option": "McLaren",
+            "value": "+1600"
+          },
+          {
+            "option": "Alpine",
+            "value": "+3300"
+          },
+          {
+            "option": "AlphaTauri",
+            "value": "+5000"
+          },
+          {
+            "option": "Haas",
+            "value": "+5000"
+          },
+          {
+            "option": "Aston Martin",
+            "value": "+6600"
+          },
+          {
+            "option": "Williams",
+            "value": "+10000"
+          },
+          {
+            "option": "Alfa Romeo",
+            "value": "+12500"
+          }
+        ]
+      },
+      {
+        "title": "Will Lewis Hamilton (GBR/Mercedes) record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-650"
+          },
+          {
+            "option": "No",
+            "value": "+350"
+          }
+        ]
+      },
+      {
+        "title": "Will George Russell (GBR/Mercedes) record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-500"
+          },
+          {
+            "option": "No",
+            "value": "+300"
+          }
+        ]
+      },
+      {
+        "title": "Will Charles Leclerc (MON/Ferrari) record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-650"
+          },
+          {
+            "option": "No",
+            "value": "+350"
+          }
+        ]
+      },
+      {
+        "title": "Will Carlos Sainz Jr. (ESP/Ferrari) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-650"
+          },
+          {
+            "option": "No",
+            "value": "+350"
+          }
+        ]
+      },
+      {
+        "title": "Will Pierre Gasly (FRA/AlphaTauri) record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-140"
+          },
+          {
+            "option": "No",
+            "value": "+100"
+          }
+        ]
+      },
+      {
+        "title": "Will Yuki Tsunoda (JPN/AlphaTauri) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+150"
+          },
+          {
+            "option": "No",
+            "value": "-225"
+          }
+        ]
+      },
+      {
+        "title": "Will Valtteri Bottas (FIN/Alfa Romeo) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+250"
+          },
+          {
+            "option": "No",
+            "value": "-500"
+          }
+        ]
+      },
+      {
+        "title": "Will Alexander Albon (THA/Williams) record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+333"
+          },
+          {
+            "option": "No",
+            "value": "-700"
+          }
+        ]
+      },
+      {
+        "title": "Will both drivers of any team record points in the race?",
+        "options": [
+          {
+            "option": "Ferrari",
+            "value": "-300"
+          },
+          {
+            "option": "Mercedes",
+            "value": "-275"
+          },
+          {
+            "option": "Red Bull",
+            "value": "-275"
+          },
+          {
+            "option": "McLaren",
+            "value": "+120"
+          },
+          {
+            "option": "Alpine",
+            "value": "+185"
+          },
+          {
+            "option": "AlphaTauri",
+            "value": "+300"
+          },
+          {
+            "option": "Aston Martin",
+            "value": "+375"
+          },
+          {
+            "option": "Haas",
+            "value": "+900"
+          },
+          {
+            "option": "Williams",
+            "value": "+2000"
+          },
+          {
+            "option": "Alfa Romeo",
+            "value": "+2000"
+          }
+        ]
+      },
+      {
+        "title": "Will both Red Bull Racing drivers record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-275"
+          },
+          {
+            "option": "No",
+            "value": "+190"
+          }
+        ]
+      },
+      {
+        "title": "Will both drivers of team Ferrari record points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "-300"
+          },
+          {
+            "option": "No",
+            "value": "+200"
+          }
+        ]
+      },
+      {
+        "title": "Will both Alpine drivers score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+185"
+          },
+          {
+            "option": "No",
+            "value": "-275"
+          }
+        ]
+      },
+      {
+        "title": "Will all Mercedes and Red Bull drivers finish in the top 6? (All must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+175"
+          },
+          {
+            "option": "No",
+            "value": "-250"
+          }
+        ]
+      },
+      {
+        "title": "Will Lewis Hamilton (GBR/Mercedes) win Hat Trick (Pole + Race + Fastest Lap)?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+1400"
+          }
+        ]
+      },
+      {
+        "title": "Will Mick Schumacher (GER/Haas) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+200"
+          },
+          {
+            "option": "No",
+            "value": "-350"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "GP Bahrain - Race - Price Boost",
+    "tables": [
+      {
+        "title": "Will both drivers finish in the Top 2? Hamilton/Verstappen (Both must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+350"
+          },
+          {
+            "option": "No",
+            "value": "-650"
+          }
+        ]
+      },
+      {
+        "title": "Will both Ferrari drivers finish in the top 3 in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+450"
+          }
+        ]
+      },
+      {
+        "title": "Will all Mercedes and Red Bull drivers finish in the top 4? (All must start for bets to stand)",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+200"
+          },
+          {
+            "option": "No",
+            "value": "-300"
+          }
+        ]
+      },
+      {
+        "title": "Race Winner - Hamilton/Rest of field (Driver must start for bets to stand)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "+350"
+          },
+          {
+            "option": "Any other driver",
+            "value": "-650"
+          }
+        ]
+      },
+      {
+        "title": "Will Max Verstappen (NED/Red Bull) complete the hat-trick (Pole + Race + Fastest Lap)?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+500"
+          }
+        ]
+      },
+      {
+        "title": "Will Mick Schumacher (GER/Haas) score points in the race?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": "+250"
+          },
+          {
+            "option": "No",
+            "value": "-400"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Drivers Championship 2022",
+    "tables": [
+      {
+        "title": "Antepost Winner",
+        "options": [
+          {
+            "option": "Lewis Hamilton",
+            "value": "+150"
+          },
+          {
+            "option": "Max Verstappen",
+            "value": "+175"
+          },
+          {
+            "option": "Charles Leclerc",
+            "value": "+700"
+          },
+          {
+            "option": "George Russell",
+            "value": "+800"
+          },
+          {
+            "option": "Carlos Sainz Jr.",
+            "value": "+1000"
+          },
+          {
+            "option": "Lando Norris",
+            "value": "+2500"
+          },
+          {
+            "option": "Sergio Perez",
+            "value": "+4000"
+          },
+          {
+            "option": "Daniel Ricciardo",
+            "value": "+5000"
+          },
+          {
+            "option": "Fernando Alonso",
+            "value": "+6600"
+          },
+          {
+            "option": "Esteban Ocon",
+            "value": "+10000"
+          },
+          {
+            "option": "Sebastian Vettel",
+            "value": "+15000"
+          },
+          {
+            "option": "Pierre Gasly",
+            "value": "+20000"
+          },
+          {
+            "option": "Mick Schumacher",
+            "value": "+20000"
+          },
+          {
+            "option": "Lance Stroll",
+            "value": "+30000"
+          },
+          {
+            "option": "Valtteri Bottas",
+            "value": "+50000"
+          },
+          {
+            "option": "Yuki Tsunoda",
+            "value": "+50000"
+          },
+          {
+            "option": "Alexander Albon",
+            "value": "+50000"
+          },
+          {
+            "option": "Nicholas Latifi",
+            "value": "+50000"
+          },
+          {
+            "option": "Guanyu Zhou",
+            "value": "+75000"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Max Verstappen (NED/Red Bull)/Sergio Perez (MEX/Red Bull)",
+        "options": [
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "-700"
+          },
+          {
+            "option": "Sergio Perez (MEX/Red Bull)",
+            "value": "+400"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Daniel Ricciardo (AUS/McLaren)/Lando Norris (GBR/McLaren)",
+        "options": [
+          {
+            "option": "Daniel Ricciardo (AUS/McLaren)",
+            "value": "+200"
+          },
+          {
+            "option": "Lando Norris (GBR/McLaren)",
+            "value": "-300"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Sebastian Vettel (GER/Aston Martin)/Lance Stroll (CAN/Aston Martin)",
+        "options": [
+          {
+            "option": "Sebastian Vettel (GER/Aston Martin)",
+            "value": "-250"
+          },
+          {
+            "option": "Lance Stroll (CAN/Aston Martin)",
+            "value": "+175"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Alexander Albon (THA/Williams)/Nicholas Latifi (CAN/Williams)",
+        "options": [
+          {
+            "option": "Alexander Albon (THA/Williams)",
+            "value": "-300"
+          },
+          {
+            "option": "Nicholas Latifi (CAN/Williams)",
+            "value": "+200"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Lewis Hamilton (GBR/Mercedes)/Max Verstappen (NED/Red Bull)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-155"
+          },
+          {
+            "option": "Max Verstappen (NED/Red Bull)",
+            "value": "+110"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Lewis Hamilton (GBR/Mercedes)/George Russell (GBR/Mercedes)",
+        "options": [
+          {
+            "option": "Lewis Hamilton (GBR/Mercedes)",
+            "value": "-250"
+          },
+          {
+            "option": "George Russell (GBR/Mercedes)",
+            "value": "+175"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Carlos Sainz Jr. (ESP/Ferrari)/Charles Leclerc (MON/Ferrari)",
+        "options": [
+          {
+            "option": "Carlos Sainz Jr. (ESP/Ferrari)",
+            "value": "+100"
+          },
+          {
+            "option": "Charles Leclerc (MON/Ferrari)",
+            "value": "-140"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Pierre Gasly (FRA/AlphaTauri)/Yuki Tsunoda (JPN/AlphaTauri)",
+        "options": [
+          {
+            "option": "Pierre Gasly (FRA/AlphaTauri)",
+            "value": "-900"
+          },
+          {
+            "option": "Yuki Tsunoda (JPN/AlphaTauri)",
+            "value": "+450"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Fernando Alonso (ESP/Alpine)/Esteban Ocon (FRA/Alpine)",
+        "options": [
+          {
+            "option": "Fernando Alonso (ESP/Alpine)",
+            "value": "-300"
+          },
+          {
+            "option": "Esteban Ocon (FRA/Alpine)",
+            "value": "+200"
+          }
+        ]
+      },
+      {
+        "title": "Head-to-Head Valtteri Bottas (FIN/Alfa Romeo)/Guanyu Zhou (CHN/Alfa Romeo)",
+        "options": [
+          {
+            "option": "Valtteri Bottas (FIN/Alfa Romeo)",
+            "value": "-900"
+          },
+          {
+            "option": "Guanyu Zhou (CHN/Alfa Romeo)",
+            "value": "+450"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Constructor Championship 2022",
+    "tables": [
+      {
+        "title": "Antepost Winner",
+        "options": [
+          {
+            "option": "Mercedes",
+            "value": "-135"
+          },
+          {
+            "option": "Red Bull",
+            "value": "+250"
+          },
+          {
+            "option": "Ferrari",
+            "value": "+275"
+          },
+          {
+            "option": "McLaren",
+            "value": "+1600"
+          },
+          {
+            "option": "Alpine",
+            "value": "+6600"
+          },
+          {
+            "option": "Aston Martin",
+            "value": "+15000"
+          },
+          {
+            "option": "AlphaTauri",
+            "value": "+25000"
+          },
+          {
+            "option": "Williams",
+            "value": "+40000"
+          },
+          {
+            "option": "Alfa Romeo",
+            "value": "+50000"
+          },
+          {
+            "option": "Haas",
+            "value": "+50000"
+          }
+        ]
+      }
+    ]
+  }
+]
