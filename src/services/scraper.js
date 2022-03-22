@@ -2,12 +2,15 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 const fs = require("fs");
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-extra");
+
+const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+puppeteer.use(StealthPlugin());
 
 const baseUrl = "https://sports.dc.betmgm.com";
 const startPage = "/en/sports/formula-1-6/betting/world-6";
 const userAgent =
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0";
+  "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:98.0) Gecko/20100101 Firefox/98.0";
 function wait(ms) {
   return new Promise((resolve) => setTimeout(() => resolve(), ms));
 }

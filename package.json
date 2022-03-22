@@ -26,6 +26,8 @@
     "mongoose": "^6.2.7",
     "pretty": "^2.0.0",
     "puppeteer": "^13.5.1",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
     "redis": "^4.0.4"
   },
   "devDependencies": {
