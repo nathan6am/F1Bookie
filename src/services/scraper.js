@@ -11,6 +11,7 @@ const userAgent =
 function wait(ms) {
   return new Promise((resolve) => setTimeout(() => resolve(), ms));
 }
+
 async function refreshCatgories(page) {
   try {
     let categories = [];
@@ -26,7 +27,7 @@ async function refreshCatgories(page) {
         href: $(this).attr("href"),
       };
     });
-
+    console.log(categories);
     return categories;
   } catch (err) {
     console.error(err);
