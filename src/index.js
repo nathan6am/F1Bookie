@@ -1,6 +1,6 @@
 import "dotenv/config.js";
 import fs from "fs";
-
+import path from "path";
 import startup from "./startup.js";
 import DiscordJS, { Intents, Collection } from "discord.js";
 import mongoose from "mongoose";
