@@ -18,7 +18,7 @@ async function refreshCatgories(page) {
     console.log(`loding page: ${baseUrl}${startPage}`);
     await page.goto(`${baseUrl}${startPage}`, { waitUntil: "networkidle0" });
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);
-    console.log("html");
+    console.log(html);
     const $ = cheerio.load(html);
     //Get Category names
     $(".event-all-bets").each(function (i, elem) {
