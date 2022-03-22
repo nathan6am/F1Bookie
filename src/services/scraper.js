@@ -71,7 +71,7 @@ async function getTable(page, href) {
 
 export async function scrapeOdds() {
   try {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ args: ["--no-sandbox"] });
     console.log("browser launched");
     const [page] = await browser.pages();
     await page.setUserAgent(userAgent);

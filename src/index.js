@@ -29,13 +29,13 @@ const client = new DiscordJS.Client({
 
 // Register commands from commands dir
 const commandFiles = fs
-  .readdirSync("./commands")
+  .readdirSync(path.resolve(__dirname, "./commands"))
   .filter((file) => file.endsWith(".js"));
 const commands = [];
 client.commands = new Collection();
 
 const eventFiles = fs
-  .readdirSync("./events")
+  .readdirSync(path.resolve(__dirname, "./events"))
   .filter((file) => file.endsWith(".js"));
 
 for (const file of eventFiles) {
