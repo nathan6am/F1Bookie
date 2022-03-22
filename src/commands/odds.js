@@ -10,12 +10,13 @@ export default {
     .setDescription("Get live betting odds"),
   async execute(interaction) {
     const oddsData = await getOdds();
-    if (!oddsData) {
+    if (!oddsData || oddsData.length === 0) {
       await interaction.reply({
         content:
           "There are no odds avaialble at this time -- please try again later",
         ephemeral: true,
       });
+      return;
     }
     const options = [];
     oddsData.forEach((category) => {
