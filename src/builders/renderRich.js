@@ -15,7 +15,7 @@ export function renderDriver(driverId) {
 }
 
 export function renderConstructor(constructorId) {
-  const constructorData = constructors.find(constructor => constructorId === constructorId)
+  const constructorData = constructors.find(constructor => constructor.constructorId === constructorId)
   if (!constructorData) return null;
   return `${constructorData.emojicode}${constructorData.name}`
 }
