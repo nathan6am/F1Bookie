@@ -1,6 +1,6 @@
 import { MessageEmbed } from "discord.js";
 import { getOdds } from "../services/redisCache.js";
-import { renderDriver } from "./renderRich.js";
+import { renderConstructor, renderDriver } from "./renderRich.js";
 import { timeUnitl, lastUpdate } from "./timeUtil.js";
 
 export async function renderOdds(value) {
@@ -33,6 +33,12 @@ export async function renderOdds(value) {
           return `${nameRich}: ` + "``" + `${odds}` + "``";
         })
         .join("\n");
+    } else if (table.type === "constructor") {
+      value = table.options.map((option) => {
+        const odds = (option.oddsValue < 0 ? "" : "+") + option.oddsValue;
+        const nameRich = renderConstructor(option.optionId);
+        return `${nameRich}: ` + "``" + `${odds}` + "``";
+      })
     } else {
       const res = table.options
         .map((option) => {

@@ -9,9 +9,13 @@ export function renderDriver(driverId) {
   const driverData = drivers.find((driver) =>
     driver.driverId.includes(driverId.toLowerCase())
   );
-  if (driverData) {
-    return `${driverData.flag} ${driverData.givenName} ${driverData.familyName} (${driverData.code})`;
-  } else {
-    return null;
-  }
+  if (!driverData) return null;
+  return `${driverData.flag} ${driverData.givenName} ${driverData.familyName} (${driverData.code})`;
+ 
+}
+
+export function renderConstructor(constructorId) {
+  const constructorData = constructors.find(constructor => constructorId === constructorId)
+  if (!constructorData) return null;
+  return `${constructorData.emojicode}${constructorData.name}`
 }

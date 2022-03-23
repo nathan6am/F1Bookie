@@ -4,61 +4,71 @@
       "constructorId": "alfa",
       "url": "http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One",
       "name": "Alfa Romeo",
-      "nationality": "Swiss"
+      "nationality": "Swiss",
+      "emojicode": "<:AlfaRomeo:545512875574165504>"
     },
     {
       "constructorId": "alphatauri",
       "url": "http://en.wikipedia.org/wiki/Scuderia_AlphaTauri",
       "name": "AlphaTauri",
-      "nationality": "Italian"
+      "nationality": "Italian",
+      "emojicode": "<:alphatauri:656912052417462323>"
     },
     {
       "constructorId": "alpine",
       "url": "http://en.wikipedia.org/wiki/Alpine_F1_Team",
       "name": "Alpine F1 Team",
-      "nationality": "French"
+      "nationality": "French",
+      "emojicode": "<:Alpine:794564025965871144>"
     },
     {
       "constructorId": "aston_martin",
       "url": "http://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
       "name": "Aston Martin",
-      "nationality": "British"
+      "nationality": "British",
+      "emojicode": "<:mercedes:361787679173640192>"
     },
     {
       "constructorId": "ferrari",
       "url": "http://en.wikipedia.org/wiki/Scuderia_Ferrari",
       "name": "Ferrari",
-      "nationality": "Italian"
+      "nationality": "Italian",
+      "emojicode": "<:ferrari:361787679324635136>"
     },
     {
       "constructorId": "haas",
       "url": "http://en.wikipedia.org/wiki/Haas_F1_Team",
       "name": "Haas F1 Team",
-      "nationality": "American"
+      "nationality": "American",
+      "emojicode": "<:haas:361787679035097090>"
     },
     {
       "constructorId": "mclaren",
       "url": "http://en.wikipedia.org/wiki/McLaren",
       "name": "McLaren",
-      "nationality": "British"
+      "nationality": "British",
+      "emojicode": "<:McLaren:805836499647725588>"
     },
     {
       "constructorId": "mercedes",
       "url": "http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
       "name": "Mercedes",
-      "nationality": "German"
+      "nationality": "German",
+      "emojicode": "<:mercedes:361787679173640192> "
     },
     {
       "constructorId": "red_bull",
       "url": "http://en.wikipedia.org/wiki/Red_Bull_Racing",
       "name": "Red Bull",
-      "nationality": "Austrian"
+      "nationality": "Austrian",
+      "emojicode": "<:RedBull:632581044729675796>"
     },
     {
       "constructorId": "williams",
       "url": "http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering",
       "name": "Williams",
-      "nationality": "British"
+      "nationality": "British",
+      "emojicode": "<:williams:842735624309702667>"
     }
   ]
 }
