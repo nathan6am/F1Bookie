@@ -8,9 +8,6 @@ puppeteer.use(StealthPlugin());
 
 const baseUrl = "https://sports.nj.betmgm.com";
 const startPage = "/en/sports/formula-1-6/betting/world-6";
-function wait(ms) {
-  return new Promise((resolve) => setTimeout(() => resolve(), ms));
-}
 
 async function refreshCatgories(page) {
   try {
@@ -40,8 +37,8 @@ async function getTable(page, href) {
     console.log(`loading page: ${url}`);
     await page.goto(url, { waitUntil: "networkidle0" });
     await page.hover(".column-center.ng-scrollbar");
-    await page.mouse.wheel({ deltaY: 6000 });
-    await wait(6000);
+    await page.mouse.wheel({ deltaY: 10000 });
+    await page.waitForTimeout(5000);
     const data = await page.evaluate(
       () => document.querySelector("*").outerHTML
     );
@@ -72,9 +69,12 @@ async function getTable(page, href) {
 
 export async function scrapeOdds() {
   try {
-    const browser = await puppeteer.launch({ headless: true });
-    console.log("browser launched");
-    const [page] = await browser.pages();
+    const browser = await puppeteer.launch({
+      headless: true,
+    });
+
+    console.log("Check the bot tests..");
+    const page = await browser.newPage();
     let data = [];
 
     const categories = await refreshCatgories(page);
@@ -92,3 +92,6 @@ export async function scrapeOdds() {
     console.error(err);
   }
 }
+
+// let odds = await scrapeOdds();
+// console.log(odds);
