@@ -34,11 +34,13 @@ export async function renderOdds(value) {
         })
         .join("\n");
     } else if (table.type === "constructor") {
-      value = table.options.map((option) => {
-        const odds = (option.oddsValue < 0 ? "" : "+") + option.oddsValue;
-        const nameRich = renderConstructor(option.optionId);
-        return `${nameRich}: ` + "``" + `${odds}` + "``";
-      })
+      value = table.options
+        .map((option) => {
+          const odds = (option.oddsValue < 0 ? "" : "+") + option.oddsValue;
+          const nameRich = renderConstructor(option.optionId);
+          return `${nameRich}: ` + "``" + `${odds}` + "``";
+        })
+        .join("\n");
     } else {
       const res = table.options
         .map((option) => {
