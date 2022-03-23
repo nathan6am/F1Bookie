@@ -9,9 +9,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const mongoURI =
-  process.env.MONGO_URI ||
-  "mongodb+srv://nathan:c73PUmN0OkNH0l8S@cluster0.6qb4t.mongodb.net/f1bookie?retryWrites=true&w=majority";
+const mongoURI = process.env.MONGO_URI;
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
