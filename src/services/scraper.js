@@ -1,16 +1,13 @@
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
-const fs = require("fs");
 const puppeteer = require("puppeteer-extra");
 
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 puppeteer.use(StealthPlugin());
 
-const baseUrl = "https://sports.dc.betmgm.com";
+const baseUrl = "https://sports.nj.betmgm.com";
 const startPage = "/en/sports/formula-1-6/betting/world-6";
-const userAgent =
-  "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:98.0) Gecko/20100101 Firefox/98.0";
 function wait(ms) {
   return new Promise((resolve) => setTimeout(() => resolve(), ms));
 }
@@ -21,7 +18,7 @@ async function refreshCatgories(page) {
     console.log(`loding page: ${baseUrl}${startPage}`);
     await page.goto(`${baseUrl}${startPage}`, { waitUntil: "networkidle0" });
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);
-    console.log(html);
+    //console.log(html);
     const $ = cheerio.load(html);
     //Get Category names
     $(".event-all-bets").each(function (i, elem) {
@@ -75,10 +72,9 @@ async function getTable(page, href) {
 
 export async function scrapeOdds() {
   try {
-    const browser = await puppeteer.launch({ args: ["--no-sandbox"] });
+    const browser = await puppeteer.launch({ headless: true });
     console.log("browser launched");
     const [page] = await browser.pages();
-    await page.setUserAgent(userAgent);
     let data = [];
 
     const categories = await refreshCatgories(page);
