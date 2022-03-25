@@ -18,8 +18,8 @@ export async function scrapeOdds() {
     const page = await browser.newPage();
 
     //Get list of available categories
-    const categories = await refreshCatgories(page)
-    if (!categories || categories.length < 1) return;
+    const categories = await refreshCatgories(page);
+    if (!categories || categories.length < 1) return [];
     //Pull odds data for each table of category
     for (const category of categories) {
       const { title, href } = category;
@@ -42,11 +42,8 @@ async function refreshCatgories(page) {
     console.log(`loading page: ${baseUrl}${startPage}`);
     let url = `${baseUrl}${startPage}`;
 
-  
-      await page.goto(url, { waitUntil: "domcontentloaded" });
-       
- 
-    //TODO: Autory on connection errors or timeouts
+    await page.goto(url, { waitUntil: "domcontentloaded" });
+    console.log("page loaded");
 
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);
     const $ = cheerio.load(html);
