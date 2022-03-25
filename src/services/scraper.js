@@ -43,7 +43,7 @@ async function refreshCatgories(page) {
     let url = `${baseUrl}${startPage}`;
 
   
-      await page.goto(url, { waitUntil: "DOMContentLoaded" });
+      await page.goto(url, { waitUntil: "domcontentloaded" });
        
  
     //TODO: Autory on connection errors or timeouts
