@@ -11,6 +11,7 @@ export default async function startup() {
     await cacheOdds(updatedOdds);
     console.log("intial odds cached");
   } else {
+    console.log(currentOdds)
     console.log("odds already cached");
   }
   refreshOdds();
