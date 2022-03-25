@@ -2,35 +2,24 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 const puppeteer = require("puppeteer-extra");
-const retry = require('async-await-retry');
+const retry = require("async-await-retry");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 puppeteer.use(StealthPlugin());
 
 const baseUrl = "https://sports.nj.betmgm.com";
 const startPage = "/en/sports/formula-1-6/betting/world-6";
 
-
 export async function scrapeOdds() {
   try {
     let data = [];
-    const browser = await puppeteer.launch({ headless: true, });
+    const browser = await puppeteer.launch({ headless: true });
 
     console.log("Browser launched");
     const page = await browser.newPage();
 
-
     //Get list of available categories
-    const categories = await retry(refreshCatgories, [page], {
-      retriesMax: 5,
-      interval: 500, 
-      exponential: true,
-      factor: 2,
-      onAttemptFail: () => {
-        console.log("page load failed, retrying")
-      }
-
-    })
-    if (!categories || categories.length <1) return;
+    const categories = await refreshCatgories(page)
+    if (!categories || categories.length < 1) return;
     //Pull odds data for each table of category
     for (const category of categories) {
       const { title, href } = category;
@@ -51,10 +40,32 @@ async function refreshCatgories(page) {
   try {
     let categories = [];
     console.log(`loading page: ${baseUrl}${startPage}`);
-    let retries =5 
-    
-    await page.goto(`${baseUrl}${startPage}`, { waitUntil: "networkidle0" });
-    //TODO: Auto retry on connection errors or timeouts
+    let url = `${baseUrl}${startPage}`;
+
+    try {
+      await retry(
+        () => {
+          page.goto(url, { waitUntil: "networkidle0" });
+        },
+        null,
+        {
+          retriesMax: 5,
+          interval: 500,
+          exponential: true,
+          factor: 2,
+          onAttemptFail: (data) => {
+            console.error(data.error);
+            console.log(
+              `page load failed, retrying attempt: ${data.currentRetry}`
+            );
+          },
+        }
+      );
+    } catch (err) {
+      console.log("execution failed")
+      console.error(err)
+    }
+    //TODO: Autory on connection errors or timeouts
 
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);
     const $ = cheerio.load(html);
@@ -66,9 +77,8 @@ async function refreshCatgories(page) {
         href: $(this).attr("href"),
       };
     });
-    console.log(categories.map(category => category.title));
+    console.log(categories.map((category) => category.title));
     return categories;
-
   } catch (err) {
     console.error(err);
   }
