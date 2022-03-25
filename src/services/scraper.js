@@ -42,29 +42,10 @@ async function refreshCatgories(page) {
     console.log(`loading page: ${baseUrl}${startPage}`);
     let url = `${baseUrl}${startPage}`;
 
-    try {
-      await retry(
-        () => {
-          page.goto(url, { waitUntil: "networkidle0" });
-        },
-        null,
-        {
-          retriesMax: 5,
-          interval: 500,
-          exponential: true,
-          factor: 2,
-          onAttemptFail: (data) => {
-            console.error(data.error);
-            console.log(
-              `page load failed, retrying attempt: ${data.currentRetry}`
-            );
-          },
-        }
-      );
-    } catch (err) {
-      console.log("execution failed")
-      console.error(err)
-    }
+  
+      await page.goto(url, { waitUntil: "DOMContentLoaded" });
+       
+ 
     //TODO: Autory on connection errors or timeouts
 
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);
