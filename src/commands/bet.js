@@ -47,6 +47,7 @@ export default {
     ),
 
   async execute(interaction) {
+    
     const prelimTicket = {
       userId: interaction.user.id,
       event: interaction.options.getString("event"),

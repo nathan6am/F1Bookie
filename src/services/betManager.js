@@ -38,7 +38,7 @@ export async function validateTicket({
     altId = driver.driverId;
   }
   const oddsData = await getOdds();
-
+  if (!oddsData) return {valid: false, message: "Unable to place bet, odds are not available right now, please try again later."}
   //verify event val
   const validatedEvent = oddsData.find(
     (cat) =>
@@ -78,7 +78,7 @@ export async function validateTicket({
   }
 
   const options = validatedTable.options;
-  const optionId = optionValue
+  const optionId = convertDriverId(optionValue)
     .replace("-", "_")
     .toLowerCase()
     .normalize("NFD")

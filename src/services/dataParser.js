@@ -8,9 +8,13 @@ const drivers = Drivers.Drivers;
 const constructors = Constructors.Constructors;
 const schedule = await getSchedule();
 const nextRace = await getNextRace();
+
 //Parse table categories
 export function parseOddsData(oddsData) {
+  
+
   if (!oddsData || oddsData.length < 1) return;
+
   return oddsData
     .map((data) => {
       const category = parseCategory(data.category);
@@ -90,25 +94,6 @@ function parseSession(sessionString, event) {
         sessionType: "qualifying",
         startTime: `${event.Qualifying.date} ${event.Qualifying.time}`,
       };
-    //Free Practice Temporarily Removed
-    // case "free practice i":
-    //   return {
-    //     sessionTitle: `${event.raceName} - Practice 1`,
-    //     sessionType: "fp1",
-    //     startTime: `${event.FirstPractice.date} ${event.FirstPractice.time}`,
-    //   };
-    // case "free practice ii":
-    //   return {
-    //     sessionTitle: `${event.raceName} - Practice 2`,
-    //     sessionType: "fp2",
-    //     startTime: `${event.SecondPractice.date} ${event.SecondPractice.time}`,
-    //   };
-    // case "free practice iii":
-    //   return {
-    //     sessionTitle: `${event.raceName} - Practice 3`,
-    //     sessionType: "fp3",
-    //     startTime: `${event.ThirdPractice.date} ${event.ThirdPractice.time}`,
-    //   };
     default:
       console.log(
         "Session Value not included in adapter; session will be discarded"

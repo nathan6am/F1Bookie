@@ -4,11 +4,11 @@ import { User } from "../schema/Models.js";
 
 export default {
   data: new SlashCommandBuilder()
-    .setName("active")
+    .setName("profile")
     .setDescription("See a list of your active bets"),
   async execute(interaction) {
     let userId = interaction.user.id;
-    const user = await User.findOne({ discordId: userId }).populate("openBets");
+    const user = await User.findOne({ discordId: userId });
 
     if (!user) {
       interaction.reply({
@@ -18,20 +18,7 @@ export default {
       });
       return;
     }
-    let bets = user.openBets;
-
-    if (!bets || bets.length < 1) {
-      interaction.reply({
-        content: "You have no active bets at this time",
-        ephemeral: true,
-      });
-      return;
-    }
-    let embed = renderOpenBets(bets, interaction.user);
-    interaction.reply({
-      content: `Active bets for <@${interaction.user.id}>`,
-      embeds: [embed],
-    });
+    let balance = user.balance
+    let stats = user.stats
   },
 };
-

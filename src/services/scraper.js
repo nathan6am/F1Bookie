@@ -2,30 +2,73 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 const puppeteer = require("puppeteer-extra");
-
+const retry = require('async-await-retry');
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 puppeteer.use(StealthPlugin());
 
 const baseUrl = "https://sports.nj.betmgm.com";
 const startPage = "/en/sports/formula-1-6/betting/world-6";
 
+
+export async function scrapeOdds() {
+  try {
+    let data = [];
+    const browser = await puppeteer.launch({ headless: true, });
+
+    console.log("Browser launched");
+    const page = await browser.newPage();
+
+
+    //Get list of available categories
+    const categories = await retry(refreshCatgories, [page], {
+      retriesMax: 5,
+      interval: 500, 
+      exponential: true,
+      factor: 2,
+      onAttemptFail: () => {
+        console.log("page load failed, retrying")
+      }
+
+    })
+    if (!categories || categories.length <1) return;
+    //Pull odds data for each table of category
+    for (const category of categories) {
+      const { title, href } = category;
+      let tables = await getTable(page, href);
+      data.push({
+        category: title,
+        tables: tables,
+      });
+    }
+    await browser.close();
+    return data;
+  } catch (err) {
+    console.error(err);
+  }
+}
+
 async function refreshCatgories(page) {
   try {
     let categories = [];
-    console.log(`loding page: ${baseUrl}${startPage}`);
+    console.log(`loading page: ${baseUrl}${startPage}`);
+    let retries =5 
+    
     await page.goto(`${baseUrl}${startPage}`, { waitUntil: "networkidle0" });
+    //TODO: Auto retry on connection errors or timeouts
+
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);
-    //console.log(html);
     const $ = cheerio.load(html);
-    //Get Category names
+
+    //Get links for all bets per event
     $(".event-all-bets").each(function (i, elem) {
       categories[i] = {
         title: $(this).siblings(".event-info").children(".event-name").text(),
         href: $(this).attr("href"),
       };
     });
-    console.log(categories);
+    console.log(categories.map(category => category.title));
     return categories;
+
   } catch (err) {
     console.error(err);
   }
@@ -36,6 +79,7 @@ async function getTable(page, href) {
     const url = `${baseUrl}${href}?market=-1`;
     console.log(`loading page: ${url}`);
     await page.goto(url, { waitUntil: "networkidle0" });
+    // Scroll down to force lazy-load of all odds data
     await page.hover(".column-center.ng-scrollbar");
     await page.mouse.wheel({ deltaY: 10000 });
     await page.waitForTimeout(5000);
@@ -66,32 +110,3 @@ async function getTable(page, href) {
     console.error(err);
   }
 }
-
-export async function scrapeOdds() {
-  try {
-    const browser = await puppeteer.launch({
-      headless: true,
-    });
-
-    console.log("Check the bot tests..");
-    const page = await browser.newPage();
-    let data = [];
-
-    const categories = await refreshCatgories(page);
-    for (const category of categories) {
-      const { title, href } = category;
-      let tables = await getTable(page, href);
-      data.push({
-        category: title,
-        tables: tables,
-      });
-    }
-    await browser.close();
-    return data;
-  } catch (err) {
-    console.error(err);
-  }
-}
-
-// let odds = await scrapeOdds();
-// console.log(odds);

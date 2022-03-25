@@ -30,6 +30,10 @@ const userSchema = new Schema(
         type: Number,
         default: 0,
       },
+      netWinnings: {
+        type: Number, 
+        default: 0 
+      }
     },
     openBets: [{ type: mongoose.Schema.Types.ObjectId, ref: "Bet" }],
     closedBets: [{ type: mongoose.Schema.Types.ObjectId, ref: "Bet" }],

@@ -100,7 +100,7 @@
       "flag": "🇲🇨"
     },
     {
-      "driverId": "magnussen",
+      "driverId": "kevin_magnussen",
       "permanentNumber": "20",
       "code": "MAG",
       "url": "http://en.wikipedia.org/wiki/Kevin_Magnussen",
@@ -177,7 +177,7 @@
       "flag": "🇪🇸"
     },
     {
-      "driverId": "schumacher",
+      "driverId": "mick_schumacher",
       "permanentNumber": "47",
       "code": "MSC",
       "url": "http://en.wikipedia.org/wiki/Mick_Schumacher",
@@ -210,7 +210,7 @@
       "flag": "🇯🇵"
     },
     {
-      "driverId": "verstappen",
+      "driverId": "max_verstappen",
       "permanentNumber": "33",
       "code": "VER",
       "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
