@@ -42,7 +42,9 @@ async function refreshCatgories(page) {
     console.log(`loading page: ${baseUrl}${startPage}`);
     let url = `${baseUrl}${startPage}`;
 
-    await page.goto(url, { waitUntil: "domcontentloaded" });
+    const res = await retry(() => {page.goto(url, { waitUntil: "networkidle0" })}, null, {retriesMax: 5, interval: 500, exponential: true, factor: 2, onAttemptFail: (data) => {
+      console.log(`retrying, attempt # ${data.currentRetry}`)
+    }})
 
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);
     console.log(html)
