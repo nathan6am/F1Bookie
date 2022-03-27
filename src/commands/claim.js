@@ -21,11 +21,12 @@ export default {
       });
       return;
     }
+    await interaction.deferReply()
     const bets = user.openBets.map((bet) => bet.toObject());
 
  
     if (!bets || bets.length < 1) {
-      interaction.reply({
+      interaction.editReply({
         content: "You have no bets to claim at this time",
         ephemeral: true,
       });
@@ -48,7 +49,7 @@ export default {
     }
 
     if (betsToClose.length === 0) {
-      interaction.reply({
+      interaction.editReply({
         content:
           "You have no bets to claim at this time. Use ``/active`` to see a list of your active bets",
         ephemeral: true,
@@ -59,27 +60,27 @@ export default {
     //Update user in memory and save to db
     const closedIds = betsToClose.map((bet) => bet._id);
     user.openBets = ids.filter((id) => !closedIds.includes(id));
-    user.closedBets = [...user.closedBets, ...closedIds];
+    
     let payout = 0;
     const betsWon = betsToClose.filter((bet) => bet.betWon);
     betsWon.forEach(
       (bet) => (payout = payout + calculatePayout(bet.stake, bet.odds))
     );
-
+   
     const updatedBalance = user.balance + payout;
     user.balance = updatedBalance;
     const updatedUser = await user.save();
 
-    
+
     if (updatedUser) {
       const embed = renderClosedBets(betsToClose, payout, updatedBalance);
-      interaction.reply({
+      interaction.editReply({
         content: `Results for <@${interaction.user.id}>`,
         embeds: [embed],
         ephemeral: false,
       });
     } else {
-      interaction.reply({
+      interaction.editReply({
         content: "Unable to claim bets. Please try again later",
         ephemeral: true,
       });

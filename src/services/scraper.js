@@ -45,7 +45,7 @@ async function refreshCatgories(page) {
     await page.goto(url, { waitUntil: "networkidle0" });
 
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);
-    console.log(html)
+    //console.log(html)
     const $ = cheerio.load(html);
 
     //Get links for all bets per event
