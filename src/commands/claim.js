@@ -68,8 +68,9 @@ export default {
     );
    
     const updatedBalance = user.balance + payout;
-    user.balance = updatedBalance;
-    const updatedUser = await user.save();
+    user.balance = updatedBalance
+    closedIds.forEach(id => user.closedBets.push(id))
+    const updatedUser = await user.update();
 
 
     if (updatedUser) {

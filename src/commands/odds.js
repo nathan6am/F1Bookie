@@ -9,9 +9,10 @@ export default {
     .setName("odds")
     .setDescription("Get live betting odds"),
   async execute(interaction) {
+    await interaction.deferReply()
     const oddsData = await getOdds();
     if (!oddsData || oddsData.length === 0) {
-      await interaction.reply({
+      await interaction.updateReply({
         content:
           "There are no odds avaialble at this time -- please try again later",
         ephemeral: true,
@@ -46,13 +47,13 @@ export default {
           .setOptions(options)
       );
 
-      await interaction.reply({
+      await interaction.updateReply({
         content: "Select a category to view odds",
         components: [row],
         ephemeral: true,
       });
     } else {
-      await interaction.reply({
+      await interaction.updateReply({
         content:
           "There are no odds avaialble at this time -- please try again later",
         ephemeral: true,

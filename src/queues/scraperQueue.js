@@ -20,7 +20,7 @@ import { cacheOdds } from "../services/redisCache.js";
 const Queue = require("bull");
 
 const crawlerQueue = new Queue("web crawling", {
-  redis: process.env.REDIS_CACHE_URL,
+  redis: process.env.REDIS_QUEUE_URL,
 });
 
 crawlerQueue.process(scraperProcess);
