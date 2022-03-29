@@ -20,7 +20,7 @@ export default {
       if (interaction.customId === "odds-select") {
         const category = interaction.values[0];
         const embed = await renderOdds(category);
-        await interaction.editReply({
+        await interaction.update({
           content: null,
           embeds: [embed],
           ephemeral: false,
