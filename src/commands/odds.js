@@ -12,7 +12,7 @@ export default {
     await interaction.deferReply()
     const oddsData = await getOdds();
     if (!oddsData || oddsData.length === 0) {
-      await interaction.updateReply({
+      await interaction.editReply({
         content:
           "There are no odds avaialble at this time -- please try again later",
         ephemeral: true,
@@ -47,13 +47,13 @@ export default {
           .setOptions(options)
       );
 
-      await interaction.updateReply({
+      await interaction.editReply({
         content: "Select a category to view odds",
         components: [row],
         ephemeral: true,
       });
     } else {
-      await interaction.updateReply({
+      await interaction.editReply({
         content:
           "There are no odds avaialble at this time -- please try again later",
         ephemeral: true,
