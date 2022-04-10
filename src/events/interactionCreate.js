@@ -23,6 +23,7 @@ export default {
         await interaction.update({
           content: null,
           embeds: [embed],
+          components: [],
           ephemeral: false,
         });
       }

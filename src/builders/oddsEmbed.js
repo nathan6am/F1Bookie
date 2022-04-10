@@ -1,7 +1,7 @@
 import { MessageEmbed } from "discord.js";
 import { getOdds } from "../services/redisCache.js";
 import { renderConstructor, renderDriver } from "./renderRich.js";
-import { timeUnitl, lastUpdate } from "./timeUtil.js";
+import { timeUnitl, lastUpdate } from "../services/timeUtil.js";
 
 export async function renderOdds(value) {
   const oddsData = await getOdds();
