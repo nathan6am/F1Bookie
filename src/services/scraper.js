@@ -41,7 +41,7 @@ async function refreshCatgories(page) {
     let categories = [];
     console.log(`loading page: ${baseUrl}${startPage}`);
     let url = `${baseUrl}${startPage}`;
-
+    
     await page.goto(url, { waitUntil: "networkidle0" });
 
     let html = await page.evaluate(() => document.querySelector("*").outerHTML);

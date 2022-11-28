@@ -6,9 +6,13 @@ const scraperProcess = async (job, done) => {
   const scrapedData = await scrapeOdds();
   if (!scrapedData) throw new Error("Unable to fetch odds data");
   const updatedOdds = await parseOddsData(scrapedData);
+  if (!updatedOdds || !updatedOdds.length) {
+    throw new Error("no odds")
+  } else {
   await cacheOdds(updatedOdds);
   refreshOdds();
   done();
+  }
 };
 
 export default scraperProcess;
